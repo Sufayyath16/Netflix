@@ -17,3 +17,41 @@
     line-height: 28px;
    
 }
+
+@media (max-width: 768px) {
+    
+    .banner {
+        height: 300px;
+    }
+
+    .banner-content {
+        padding-top: 150px;
+    }
+
+    .banner-title {
+        font-size: 20px;
+    }
+
+    .banner-des {
+        line-height: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    
+    .banner {
+        height: 200px; 
+    }
+
+    .banner-content {
+        padding-top: 100px; 
+    }
+
+    .banner-title {
+        font-size: 16px; 
+    }
+
+    .banner-des {
+        line-height: 12px; 
+    }
+}
